@@ -1,5 +1,6 @@
 # eCommerce with CI/CD
 
+* Built utilizing C#, ASP.NET Core, and Microsoft Azure Dev Ops
 * This project has been moved to a Microsoft Azure DevOps environment under aacister organization at https://dev.azure.com/aacister/eCommerce with CI/CD setup.
 * Microservice images and respective data source images have been deployed to Azure container registry at aacisterecommerceregistry.azurecr.io
 * 3 microservice pipelins (UsersService, ProductsService, OrdersService) include builds, tests, and deployments to 5 separate environments (dev, qa, uat, staging, prod).
